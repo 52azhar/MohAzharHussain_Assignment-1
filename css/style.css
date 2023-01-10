@@ -1,0 +1,370 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: sans-serif;
+    color: black;
+}
+
+.navbar {
+    background-color: #fbdc00;
+    display: flex;
+}
+
+.nav-cogoport {
+    width: 23%;
+    margin: 5px;
+    text-align: center;
+}
+
+.nav-list {
+    width: 53%;
+    justify-content: center;
+    display: flex;
+}
+
+.nav-list2 {
+    display: flex;
+    margin: 8px;
+    padding: 10px;
+}
+
+.nav-list li {
+    list-style: none;
+    margin: 10px;
+    padding: 5px 25px;
+}
+
+.nav-list2 li {
+    list-style: none;
+    margin: 5px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-list a:hover {
+    text-decoration: none;
+    text-decoration-color: red;
+}
+
+.rightNav {
+    width: 24%;
+    background-color: #fbdc00;
+}
+
+.button {
+    background-color: #ee3425;
+    color: white;
+    padding: 7px;
+    border-radius: 8px;
+    border: 1px solid #ee3425;
+}
+
+/*Navbar CSS*/
+
+.fist-page {
+    position: relative;
+    width: 100%;
+    padding-top: 15px;
+    margin-top: -15px;
+    background: url(https://cdn.cogoport.io/cms-prod/vault/original/home-banner-background-1.webp);
+    background-color: var(--color-secondary);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100%;
+}
+
+.fist-page-sec {
+    display: flex;
+}
+
+.fist-page-sec1 {
+    text-align: center;
+    margin: 50px;
+    padding: 100px;
+    width: 50%;
+}
+
+.fist-page-sec1 li {
+    text-align: left;
+    list-style: none;
+    margin: 10px;
+}
+
+.fist-page-sec2 {
+    width: 50%;
+}
+
+/* first page end */
+.first-page-endstart {
+    width: 1200px;
+}
+
+.first-page-end1 {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-between;
+    justify-content: space-between;
+    padding-top: 50px;
+    margin-bottom: -40px;
+}
+
+.first-page-end2 {
+    width: 960px;
+    padding: 30px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.first-page-end-sec1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-page-end-sec1 h2 {
+    color: rgb(238 52 37);
+}
+
+.first-page-end-h2 {
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-size: 35px;
+    line-height: 1.5;
+}
+
+.first-page-endend {
+    background: #fffef2;
+}
+
+.first-page-endend1 {
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 18px;
+    border-bottom-right-radius: 100% 150%;
+    border-bottom-left-radius: 100% 150%;
+}
+
+.second-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 40px;
+    background: #fffef2;
+}
+
+.second-page-sec1 {
+    flex: 1 1;
+}
+
+.second-page-sec2 {
+    display: flex;
+    flex: 1 1;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
+    justify-content: flex-end;
+}
+
+.second-page-sec1-img {
+    display: block;
+    width: 500px;
+    -o-object-fit: contain;
+    object-fit: contain;
+    height: 100%;
+}
+
+.content-align{
+    display: flex;
+    align-items: center;
+}
+.second-page-sec2 {
+    display: flex;
+    justify-content: space-between;
+    background: #fffef2;
+}
+.second-page-sec2-sub1 {
+    display: flex;
+    flex-direction: column;
+}
+.second-page-sec2-sub2 {
+    display: flex;
+    align-items: center;
+    margin: 14px 0;
+}
+
+.second-page-sec2-sub2-h4 {
+    width: 300px;
+    margin-right: 50px;
+    font-size: 24px;
+    color: #000;
+}
+.second-page-sec2-sub2-icon {
+    width: 150%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.icon-style{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 186px;
+    height: 160px;
+    padding: 10px 7px;
+    margin: 10px;
+    background: #fff;
+    border: 1.5px solid transparent;
+    border-radius: 10px;
+    box-shadow: 0 1px 6px rgb(169 188 218 / 65%);
+}
+/* end second page */
+
+.third-page-start {
+    margin-bottom: 50px;
+}
+.third-page-start-sec1 {
+    display: flex;
+    gap: 0.1rem;
+    overflow: hidden;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+.third-page-start-sec2 {
+    display: flex;
+    flex-shrink: 0;
+    gap: 0.1rem;
+    align-items: center;
+    justify-content: space-around;
+    min-width: 100%;
+}
+
+.third-page-start-sec3 {
+    margin-bottom: 50px;
+    background: #fbdc00;
+}
+.third-page-start-sec3-sub1 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.third-page-start-sec3-sub2 {
+    padding: 25px 0;
+    padding-top: 25px;
+    padding-right: 0px;
+    padding-bottom: 25px;
+    padding-left: 0px;
+}
+/* third page end */
+
+.fourth-page-start {
+    padding: 16px;
+    margin-bottom: 50px;
+    background: #fffef3;
+}
+.fourth-page-start-sec {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-between;
+    justify-content: space-between;
+}
+.fourth-page-start-sec1{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.fourth-page-start-sec2 {
+    display: flex;
+    align-items: center;
+    padding: 16px 100px!important;
+    padding-top: 16px;
+    padding-right: 100px;
+    padding-bottom: 16px;
+    padding-left: 100px;
+}
+.fourth-page-sec3 h3 {
+    margin-bottom: 10px;
+    color: #fff;
+}
+h3 {
+    font-size: 28px;
+    line-height: 1.2;
+}
+/* fifth page end */
+.sixth-page {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 120px;
+    margin-top: 20px;
+    background-color: #fbdc00;
+}
+.sixth-page-img {
+    width: 20%;
+    padding: 20px;
+    margin: 20px;
+}
+.sixth-page-sec1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    padding: 0 50px 50px;
+    font-family: var(--font-family);
+    background: #fbdc00;
+}
+.sixth-page-sec2 {
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+}
+.sixth-page-sec2-heading {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.5;
+    text-decoration: underline;
+}
+.sixth-page-sec2 li{
+    list-style: none;
+    margin: 10px;
+    padding: 5px 25px;
+}
+.sixth-page-sec2 li a{
+    text-decoration: none;
+    color: black;
+}
+/* sixth page end */
+
+.last-page {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px 0;
+    background-color: #ebbe00;
+}
